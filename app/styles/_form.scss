@@ -1,0 +1,20 @@
+.form-control {
+	border: 2px solid lighten($dark-grey, 60);
+	height: 52px;
+	letter-spacing: 1px;
+	font-size: $f-s-17-base;
+	border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.form-control:focus { border-color: $primary-color; }
+.input-lg,
+.form-horizontal .form-group-lg .form-control {
+	height: 42px;
+	font-size: $f-s-13;
+}
+
+.input-sm, .form-horizontal .form-group-sm .form-control {
+	height: 29px;
+	font-size: $f-s-17-base;
+}
