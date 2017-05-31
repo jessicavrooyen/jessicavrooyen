@@ -11,7 +11,7 @@
 }
 .copyright--center {
   font-family: $base-font-family;
-  font-size: $f-s-12;
+  font-size: $f-s-16;
   text-transform: uppercase;
 	padding: 0 5px;
   text-align: center;
@@ -27,6 +27,8 @@
 .footer-box__icon a {
   font-size: 42px;
 	color: $white;
+	margin-bottom: 15px;
+
 }
 .footer-box__icon a:hover {
 	color: $primary-color;
@@ -35,13 +37,13 @@
   letter-spacing: 1px;
   font-weight: $f-w-5;
   font-family: $font-family-heading;
-  font-size: $f-s-15;
+  font-size: $f-s-23;
   margin: 5px 0 18px;
   color: $white;
 }
 
 .footer-box__text {
 	letter-spacing: 0.05em;
-	font-size: $f-s-12;
+	font-size: $f-s-17-base;
 
 }

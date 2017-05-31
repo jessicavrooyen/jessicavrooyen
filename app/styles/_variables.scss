@@ -20,11 +20,12 @@ $f-s-13: 0.8125rem;
 $f-s-14: 0.875rem;
 $f-s-15: 0.9375rem;
 $f-s-16: 1rem;
-$f-s-17-base: 1.1rem/1.8;
+$f-s-17-base: 1.1rem;
 $f-s-21: 1.2rem;
 $f-s-22: 1.375rem;
 $f-s-23: 1.4rem;
 $f-s-31: 1.9rem;
+$f-s-32: 2rem;
 $f-s-35: 2.1875rem;
 $f-w-3: 300;
 $f-w-4-base: 400;
@@ -34,7 +35,7 @@ $f-w-7: 700;
 
 // Fonts
 $banner-subheading-font: 'Montserrat', sans-serif;
-$banner-sub-wight: 300;
+$banner-sub-weight: $f-w-4-base;
 $sans-serif-font: 'Roboto', sans-serif;
 
 // Navigation
@@ -42,7 +43,7 @@ $sans-serif-font: 'Roboto', sans-serif;
 
 // Heading Text
 $font-family-heading: 'Oswald', sans-serif;
-$font-heading-weight: 400;
+$font-heading-weight: $f-w-4-base;
 $h1-f-s: 28px;
 $h2-f-s: 24px;
 $h3-f-s: 18px;
