@@ -27,7 +27,9 @@
 .navbar-custom .nav > li > a:hover,
 .navbar-custom .nav .open > a,
 .navbar-custom .nav .open > a:focus,
-.navbar-custom .nav .open > a:hover {
+.navbar-custom .nav .open > a:hover,
+.navbar-custom .dropdown-menu > li > a:focus,
+.navbar-custom .dropdown-menu > li > a:hover {
 	background: none;
 	color: $primary-color;
 }

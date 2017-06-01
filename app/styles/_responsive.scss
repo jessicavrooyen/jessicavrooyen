@@ -1,13 +1,26 @@
 
 @media (min-width: 768px) {
 
+	.carousel-indicators li {
+	    display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid $primary-color;
+	    border-radius: 10px;
+	    cursor: pointer;
+	    background-color: $primary-color;
+	    background-color: transparent;
+		}
+
 	.navbar-custom .navbar-brand {
 		padding-left: 0;
 	}
 	.navbar-custom .navbar-nav > li > a {
 		padding-top: 22px;
 		padding-bottom: 20px;
-		font-size: $f-s-17-base;
+		font-size: $f-s-17;
 	}
 	.navbar-transparent {
 		background: transparent;
@@ -48,6 +61,7 @@
 }
 
 @media (max-width: 767px) {
+
 
 	.navbar-custom {
 		letter-spacing: 2px;
@@ -107,10 +121,7 @@
     padding-top: 70px;
 		font-size: 26px;
 }
-	i {
-		width: 30px;
-		height: 10px;
-	}
+
 
 	.project-details {
 		width: auto;
@@ -256,24 +267,4 @@ Multi-columns-row
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
 
-}
-
-.fa-icons {
-	padding: 0 15px;
-}
-.fa-icons > div {
-	padding: 0;
-	border: 1px solid #eee;
-	margin: -1px 0 0 -1px;
-	font-size: $f-s-13;
-}
-.fa-icons > div > i {
-	display: inline-block;
-	margin-right: 5px;
-	min-width: 40px;
-	min-height: 40px;
-	border-right: 1px solid #eee;
-	line-height: 40px;
-	text-align: center;
-	font-size: $f-s-14;
 }
