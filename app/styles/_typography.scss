@@ -1,0 +1,33 @@
+a { color: $dark-grey; }
+
+a:hover, a:focus { text-decoration: none; color: $primary-color; outline: 0; }
+
+.bg-dark a { color: $light-grey;}
+.bg-dark a:hover,
+.bg-dark a:focus { color: $dark-grey;}
+
+.text-light { color: rgba(255, 255, 255, 0.7);}
+
+.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
+.text-light .h1, .text-light .h2, .text-light .h3, .text-light .h4, .text-light .h5, .text-light .h6 {
+	color: $white;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { line-height: 1.4; font-weight: $f-w-4-base; color: $dark-grey;}
+
+h1, .h1 {font-size: $h1-f-s;}
+h2, .h2 {font-size: $h2-f-s;}
+h3, .h3 {font-size: $h3-f-s;}
+h4, .h4 {font-size: $h4-f-s;}
+h5, .h5 {font-size: $h5-f-s;}
+h6, .h6 {font-size: $h6-f-s;}
+
+p, ol, ul {margin: 0;}
+
+// Font Size, Weight, Headings, Details
+.font-alt { font-family: $base-font-family; text-transform: uppercase; letter-spacing: 2px;}
+.font-details { font-weight: $f-w-3; font-family: $font-family-heading; text-transform: uppercase; text-align: left; letter-spacing: 1px;}
+.font-heading { font-family: $font-family-heading; font-size: $f-s-31;}
+.font-heading--bio { font-family: $font-family-heading; font-size: $f-s-31; margin-bottom:40px;}
+.font-heading--single-page { font-family: $font-family-heading; font-size: $f-s-21; }
+.font-heading--small {	font-family: $font-family-heading; font-size: $f-s-35; }

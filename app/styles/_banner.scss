@@ -1,0 +1,66 @@
+.wrapper {
+	background: $white;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.banner {
+	margin: 0;
+	opacity: 0.99;
+	color: $white;
+	text-transform: uppercase;
+
+	&__heading {
+		margin-top:20px;
+		font-weight: $f-w-7;
+		font-size: 49px;
+	}
+
+	&__subheading {
+		font-weight: $banner-sub-weight;
+		font-family: $banner-subheading-font;
+		font-size: $f-s-17;
+		letter-spacing: 8px;
+	}
+
+}
+.banner__heading--single {
+	margin-top: 30px;
+	font-size: 100px;
+}
+
+.banner--logo {
+	margin-top:80px;
+}
+
+.module,
+.module-small,
+.module-single,
+.module-single-page {
+	padding: 54px 0;
+	position: relative;
+
+	&--pink {
+		background-color: $primary-color;
+	}
+}
+
+.module-about {
+	margin-top:-17px;
+}
+
+.module-small {
+	padding: 10px 0;
+}
+.module-single {
+	padding: 30px 0;
+}
+
+.navbar-custom + .module {
+	padding: 130px 0;
+}
+
+.navbar-custom + .module-small {
+	padding: 144px 0;
+}
