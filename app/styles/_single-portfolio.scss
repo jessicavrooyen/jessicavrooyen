@@ -1,49 +1,84 @@
-span.i {
-	font-size: 22px;
-	width: 50px;
-	height: 20px;
-	padding-right: 5px;
-	text-align: left;
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+	text-shadow: none;
 }
-span.i:hover {
+.carousel-control.left {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 100%);
+	color: $primary-color;
+
+}
+.carousel-control.right {
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 100%);
 	color: $primary-color;
 }
-.image-caption {
-	position: relative;
-	margin: 0 0 20px;
+.carousel-indicators .active {
+	background-color: $primary-color;
 }
 
-.image-caption .caption-text {
-	position: absolute;
-	display: table;
-	bottom: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 2;
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: $primary-color;
+    background-color: transparent;
+	}
+.carousel {
+		margin: 0 auto;
+	}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+}
+.icon {
+	font-size: 20px;
 	padding: 20px;
-	font-size: $f-s-12;
+	text-align: left;
+	color: $primary-color;
 }
 
-.project-details {
-	width: auto;
-	height: 270px;
-	list-style: none;
-	padding: 10px;
-	margin: 0;
+.single-divider {
+	 margin-bottom: 60px;
+	 border-top: 1px solid lighten($dark-grey, 60);
 }
-
-.project-details li {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px solid $text-color;
-}
-.project-details li:last-child {
-	border:none;
-	padding-top: 5px;
-}
-
 .single-page {
-	margin-top: 100px;
-	font-size: $f-s-35;
+	margin-top: 80px;
+	padding-bottom: 15px;
+	font-size: 3.7rem;
+}
+
+.single-page--sub {
+	font-size: 1.1rem;
+	padding-bottom: 20px;
+}
+
+.font-project-links {
+	font-family: $base-font-family;
+	font-size: $f-s-23;
+	font-weight: $f-w-3;
+	text-align: left;
+	text-transform: none;
+	margin-bottom:15px;
+}
+
+.font-project-text {
+	font-family: $base-font-family;
+	font-size: $f-s-23;
+	text-align: left;
+	text-transform: none;
+	margin-bottom: 30px;
+}
+
+.font-project-title {
+	font-family: $font-family-heading;
+	font-size: $f-s-32;
+	font-weight: $f-w-4-base;
+	text-align: left;
+	margin-bottom: 20px;
 }
