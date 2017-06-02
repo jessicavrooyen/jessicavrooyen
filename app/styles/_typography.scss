@@ -22,19 +22,12 @@ h4, .h4 {font-size: $h4-f-s;}
 h5, .h5 {font-size: $h5-f-s;}
 h6, .h6 {font-size: $h6-f-s;}
 
-p, ol, ul {margin: 0 0 20px;}
+p, ol, ul {margin: 0;}
 
 // Font Size, Weight, Headings, Details
-
-.font-project-title { font-family: $font-family-heading; font-size: $f-s-17-base; font-weight: $f-w-4-base; text-align: left; }
-.font-project { font-family: $base-font-family; font-weight: $f-w-3; font-size: $f-s-16;}
-.font-project-links {font-family: $base-font-family; font-size: $f-s-12; font-weight: $f-w-3; text-align:left;}
-.font-project-cat {font-family: $base-font-family; font-size: $f-s-12; font-weight: $f-w-7; text-align: left; margin-left: 0;}
-.font-project-text {font-family: $base-font-family; font-size: $f-s-14; text-transform: none; text-align:left;}
-.font-text { font-family: $base-font-family; font-size: $f-s-14; text-transform: none; text-align:left;}
-.font-project {font-family: $base-font-family; font-weight: $f-w-3; font-size: $f-s-16; }
 .font-alt { font-family: $base-font-family; text-transform: uppercase; letter-spacing: 2px;}
 .font-details { font-weight: $f-w-3; font-family: $font-family-heading; text-transform: uppercase; text-align: left; letter-spacing: 1px;}
 .font-heading { font-family: $font-family-heading; font-size: $f-s-31;}
+.font-heading--bio { font-family: $font-family-heading; font-size: $f-s-31; margin-bottom:40px;}
 .font-heading--single-page { font-family: $font-family-heading; font-size: $f-s-21; }
 .font-heading--small {	font-family: $font-family-heading; font-size: $f-s-35; }

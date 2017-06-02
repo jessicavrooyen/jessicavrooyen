@@ -117,7 +117,7 @@ box-shadow: none;
 	position: fixed;
 	display: none;
 	bottom: 14px;
-	right: 3px;
+	right: 14px;
 	z-index: 999;
 }
 
@@ -182,6 +182,21 @@ box-shadow: none;
 	100% { opacity: 0; transform: scale(2); }
 }
 
+/*
+* Contact Form
+*/
+.text-danger {
+	color: #E34549;
+
+}
+.help-block {
+	font-family: $base-font-family;
+}
+input.form-control,
+textarea.form-control {
+	font-family: $base-font-family;
+	font-size: $f-s-20;
+}
 /*
 * Paginate
 */
@@ -248,25 +263,13 @@ box-shadow: none;
 	border-radius: 30px;
 }
 .btn.btn-w {
-	background: rgba(255, 255, 255, 0.8);
+	background: $primary-color;
 	color: $white;
 }
 
 .btn.btn-w:hover, .btn.btn-w:focus {
-	background: white;
-	color: $black;
-}
-
-.btn.btn-border-w {
-	background: transparent;
-	border: 1px solid rgba(255, 255, 255, 0.75);
+	background: $dark-grey;
 	color: $white;
-}
-
-.btn.btn-border-w:hover, .btn.btn-border-w:focus {
-	background: $white;
-	border-color: transparent;
-	color: $black;
 }
 
 .btn.btn-lg {
@@ -278,12 +281,6 @@ box-shadow: none;
 	letter-spacing: 1px;
 	font-size: 10px;
 	padding: 6px 25px;
-}
-
-.btn.btn-xs {
-	letter-spacing: 0;
-	font-size: 10px;
-	padding: 4px 19px;
 }
 
 /*

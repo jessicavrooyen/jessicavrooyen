@@ -18,16 +18,16 @@
 	}
 
 	&__subheading {
-		font-weight: $banner-sub-wight;
+		font-weight: $banner-sub-weight;
 		font-family: $banner-subheading-font;
-		font-size: $f-s-12;
+		font-size: $f-s-17;
 		letter-spacing: 8px;
 	}
 
 }
 .banner__heading--single {
 	margin-top: 30px;
-	font-size: 39px;
+	font-size: 100px;
 }
 
 .banner--logo {
@@ -44,6 +44,10 @@
 	&--pink {
 		background-color: $primary-color;
 	}
+}
+
+.module-about {
+	margin-top:-17px;
 }
 
 .module-small {
