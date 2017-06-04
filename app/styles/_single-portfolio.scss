@@ -30,11 +30,13 @@
 .carousel {
 		margin: 0 auto;
 	}
+.carousel-inner { }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
     height: auto;
     line-height: 1;
+		cursor: pointer;
 }
 .icon {
 	font-size: 20px;
