@@ -4,15 +4,15 @@
 }
 .carousel-control.left {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 100%);
-	color: $primary-color;
+	color: $dark-grey;
 
 }
 .carousel-control.right {
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.0) 100%);
-	color: $primary-color;
+	color: $dark-grey;
 }
 .carousel-indicators .active {
-	background-color: $primary-color;
+	background-color: $dark-grey;
 }
 
 .carousel-indicators li {
@@ -21,10 +21,10 @@
     height: 10px;
     margin: 1px;
     text-indent: -999px;
-    border: 1px solid $primary-color;
+    border: 1px solid $dark-grey;
     border-radius: 10px;
     cursor: pointer;
-    background-color: $primary-color;
+    background-color: $dark-grey;
     background-color: transparent;
 	}
 .carousel {
