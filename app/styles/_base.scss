@@ -70,6 +70,10 @@ box-shadow: none;
 * Margins/Padding
 */
 
+.m-r {
+	margin-right: 10px;
+}
+
 .m-l-m-r {
 	margin-left: 15px;
 	margin-right: 15px;
@@ -198,40 +202,32 @@ textarea.form-control {
 	font-size: $f-s-20;
 }
 /*
-* Paginate
+* Pager
 */
-.pagination > li {
+.pager > li {
 	display: inline-block;
 }
 
-.pagination > li > a,
-.pagination > li > span {
-	font-size: 11px;
+.pager > li > a, {
+	font-size: $f-s-19;
 	color: $white;
-  border-radius: 2px;
-	background: $text-color;
+	background: lighten($text-color, 30);
 	border: 0;
 	height: 32px;
 	text-align: center;
-	line-height: 32px;
-	width: 32px;
-	padding: 0;
+	width: 60px;
 	margin: 0;
+	padding-top: 7.5px;
 }
 
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
+.pager > .active > a,
+.pager > .active > a:hover,
+.pager > .active > a:focus,{
 	background: $primary-color;
 }
 
-.pagination > li > a:hover,
-.pagination > li > span:hover,
-.pagination > li > a:focus,
-.pagination > li > span:focus {
+.pager > li > a:hover,
+.pager > li > a:focus,{
 	background: $primary-color;
 	color: $white;
 }
